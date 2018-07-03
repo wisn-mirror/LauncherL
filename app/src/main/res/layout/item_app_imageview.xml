@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content"
+    android:layout_width="80dp"
+    android:layout_height="90dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@android:color/black"
+    android:padding="4dp">
+
+    <ImageView
+        android:id="@+id/appicon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/appname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:text="应用名称" />
+</LinearLayout>
